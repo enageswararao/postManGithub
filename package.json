@@ -1,0 +1,14 @@
+{
+  "name": "newmanproject",
+  "version": "1.0.0",
+  "description": "project for storing Postman",
+  "main": "index.js",
+  "scripts": {
+    "api-tests-production": "newman run Test/NewMANCI.postman_collection.json"
+  },
+   
+  "author": "nagesh",   
+  "dependencies": {
+    "newman": "^3.7.6"
+  }
+}
